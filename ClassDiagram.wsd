@@ -1,0 +1,13 @@
+@startuml
+class ArrayRandomValue{
+    -Array: Products[]
+    +ArrayRandomValue(Array: Products[])
+    +GetRandomValue(Quantity: number)
+}
+
+interface Products{
+    name: string
+    price: number
+    quantity: number
+}
+@enduml
